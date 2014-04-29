@@ -1,0 +1,38 @@
+{
+  "name": "hubot-quote-database",
+  "description": "A Hubot quote database script which adds/removes/purges-all quotes to a quote database and recalls them by regular expression, subtext, or ID",
+  "version": "1.0.0",
+  "author": "John Wyles <john@johnwyles.com>",
+  "license": "MIT",
+
+  "keywords": [
+    "hubot",
+    "hubot-scripts"
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/johnwyles/hubot-quote-database.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/johnwyles/hubot-quote-database/issues"
+  },
+
+  "dependencies": {
+    "coffee-script": "~1.6"
+  },
+
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*"
+  },
+
+  "main": "index.coffee",
+
+  "scripts": {
+    "test": "script/test"
+  }
+}
